@@ -12,6 +12,7 @@ resource "aws_security_group" "demo-cluster" {
 
   tags {
     Name = "terraform-eks-demo"
+    version = "1.0.0"
   }
 }
 
